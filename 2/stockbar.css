@@ -1,0 +1,27 @@
+marquee{
+    width: 100%;
+    background-color: #ffffcc;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Apply this CSS to stop the marquee on hover */
+marquee:hover {
+    animation-play-state: paused;
+}
+
+
+#stock-prices{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stock-name{
+    color: darkblue;
+}
+
+.stock-price{
+    color: red;
+}

@@ -1,0 +1,26 @@
+div{
+    border: 10px solid black;
+}
+
+.country{
+    color: white;
+    font-size: 50px;
+}
+
+#nepal{
+    height: 100px;
+    width: 700px;
+    background-color: red;
+}
+
+#india{
+    height: 100px;
+    width: 900px;
+    background-color: green;
+}
+
+#russia{
+    height: 500px;
+    width: 500px;
+    background-color: yellow;
+}

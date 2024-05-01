@@ -1,0 +1,28 @@
+.highlight{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 60%;
+   margin: auto;
+}
+
+.highlight h1{
+   font-size: 50px;
+   color: #2260BF;
+   text-align: center;
+}
+
+.highlight div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.highlight img{
+    width: 100%;
+}
