@@ -1,0 +1,106 @@
+.news-list-with-highlight{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.xyz{
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#thulo-div {
+    color: white;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+
+#thulo-div img{
+    width: 100%;
+    height: 100%;
+    /* fit the image */
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+    /* this should be behind everything */
+    z-index: -1 !important;
+}
+
+/* #thulo-div #special-text{
+    position: inherit;
+    top: 10px;
+}
+ */
+
+#individual-with-refresh{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+/* dont show scrollbar of individual-with-refresh */
+#individual-with-refresh::-webkit-scrollbar {
+    display: none;
+}
+
+#individual-news-collection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.individual-news{
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.individual-news img{
+    width: 150px;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+}
+
+#ads-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+#ads-box img{
+    width: 100%;
+    aspect-ratio: 6/3;
+    border-radius: 5px;
+}
+
+#ads-box::-webkit-scrollbar {
+    display: none;
+}
+
+.refresh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
