@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stockbar.css">
+    <link rel="stylesheet" href="highlight.css">
+    <link rel="stylesheet" href="news-list-with-highlight.css">
+    <title>Home</title>
+</head>
+<!-- Hello bro yaha bata chai hamro body suru bho hai -->
+<body>
+    <nav>
+        <div class="nav-content"><a href="index.html">
+            <img src="logo.png" width="100px" alt="" style="border-radius: 100%;">
+        </a></div>
+        <div class="nav-content"><a href="about.html">About</a></div>
+        <div class="nav-content"><a href="contact.html">Contact</a></div>
+        <div class="nav-content"><a href="destroy.html">Destroy</a></div>
+    </nav>
+    <marquee loop="infinite" behavior="scroll" direction="left">
+    <div id="stock-prices">
+        <div class="stocks">
+            <div class="stock-name">XYZ Corporation</div>
+            <div class="stock-price">820</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">ABC Industries</div>
+            <div class="stock-price">340</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">DEF Group</div>
+            <div class="stock-price">625</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">GHI Inc.</div>
+            <div class="stock-price">420</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">JKL Limited</div>
+            <div class="stock-price">740</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">MNO Enterprises</div>
+            <div class="stock-price">910</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">PQR Holdings</div>
+            <div class="stock-price">550</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">STU Corporation</div>
+            <div class="stock-price">680</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">VWX Inc.</div>
+            <div class="stock-price">480</div>
+         </div>
+         
+         <div class="stocks">
+            <div class="stock-name">YZA Group</div>
+            <div class="stock-price">370</div>
+         </div>         
+        
+    </div>
+</marquee>
+<section class="highlight">
+<h1>The Swotters held its first tech workshop for SEE passouts.</h1>
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+        <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001"/>
+      </svg>
+      Nikas Ghimire
+</div>
+<img src="https://www.onlinekhabar.com/wp-content/uploads/2024/05/super-rich-man-1.png" alt="">
+
+</section>
+
+<section class="news-list-with-highlight">
+   <div id="thulo-div">
+      <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/05/Fire-1024x682.jpg" alt="">
+      <!-- <p id="special-text">Thulo Box</p> -->
+   </div>
+   <div class="xyz" id="individual-with-refresh">
+      <div id="individual-news-collection">
+         <div class="individual-news">
+            <img src="https://www.onlinekhabar.com/wp-content/uploads/2017/04/The-World-Bank.jpg">
+            <p>News News ko thorai part - 
+               
+               <!-- <div id="date-dekhau"></div> -->
+            
+            </p>
+         </div>
+         <div class="individual-news">
+            <img src="https://www.onlinekhabar.com/wp-content/uploads/2017/04/The-World-Bank.jpg">
+            <p>News News ko thorai part</p>
+         </div>
+         <div class="individual-news">
+            <img src="https://www.onlinekhabar.com/wp-content/uploads/2017/04/The-World-Bank.jpg">
+            <p>News News ko thorai part</p>
+         </div>
+      </div>
+      <div id="refresh-div individual-news-collection">
+         <div class="refresh individual-news">Refresh</div>
+      </div>
+   </div>
+   <div class="xyz" id="ads-box">
+      <div class="ads">
+         <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/03/300-x-2003.gif" alt="">
+      </div>
+      <div class="ads">
+         <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/05/300x200.jpg" alt="">
+      </div>
+      <div class="ads">
+         <img src="https://www.onlinekhabar.com/wp-content/uploads/2024/04/onlinekhabar_desktop.jpg" alt="">
+      </div>
+   </div>
+</section>
+
+<footer>
+   <div class="right">
+      &copy; 2021 The Swotters. All Rights Reserved.
+   </div>
+</footer>
+</body>
+<script>
+    const stock_marquee = document.getElementsByTagName('marquee')[0];
+    stock_marquee.addEventListener('mouseover', () => {
+        stock_marquee.stop();
+    });
+
+    stock_marquee.addEventListener('mouseout', () => {
+        stock_marquee.start();
+    });
+
+      // const date_box = document.getElementById('date-dekhau');
+      // // show january 1, 2021 in the date-dekhau div
+      // const today = new Date();
+      // // substract 1 year 11 days ahead from today
+      // const last_year = new Date(today.getFullYear() - 576, today.getMonth(), today.getDate() - 11);
+      // date_box.innerHTML = last_year.toDateString();
+
+</script>
+
+</html>
